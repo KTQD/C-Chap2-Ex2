@@ -1,4 +1,4 @@
-all: build test_1intput_2output clean
+all: build test_2intput_3output clean
 build:
 	gcc main.c
 run: build
@@ -15,3 +15,5 @@ test_1intput_2output:
 	bash test/test_1intput_2output.sh	
 test_2intput_2output:
 	bash test/test_2intput_2output.sh
+test_2intput_3output:
+	bash test/test_2intput_3output.sh
