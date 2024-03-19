@@ -42,14 +42,14 @@ fi
 
 echo "####################################################################################################"
 # Đặt đầu vào cho chương trình
-input="0 37"
+input="0 58"
 # Chạy chương trình và lưu kết quả vào biến output
 output=$(echo $input | ./a.out)
 
 # Định nghĩa output mong muốn cho từng phần
 expected_output1="Input hours:"
 expected_output2="Input minutes:"
-expected_output3="Total: 37 minutes."
+expected_output3="Total: 58 minutes."
 
 # Kiểm tra expected_output1 và xoá khỏi output
 if echo "$output" | grep -q "$expected_output1"; then
